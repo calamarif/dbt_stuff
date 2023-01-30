@@ -9,4 +9,4 @@ models:
           - unique
           - not_null
       - name: payment_method
-          description: '{{ doc("payment_method") }}'
+        description: '{{ doc("payment_method") }}'
