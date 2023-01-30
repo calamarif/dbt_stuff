@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: dbt_stripe
+    database: peerless-glass-375004
+    schema: dbt_stripe
+    tables:
+      - name: payment
